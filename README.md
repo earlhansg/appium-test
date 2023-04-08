@@ -6,6 +6,7 @@
 - appium inspector
 - node.js
 - appium
+- ui Automator2
 - apk (General-Store.apk & ApiDemos-debug.apk)
 - chromedriver
 - maven

@@ -11,7 +11,7 @@ WebElement firstImage = driver.findElement(By.xpath("(//android.widget.ImageView
 String firstTimeVale = firstImage.getAttribute("focusable");
 Assert.assertEquals("true", firstTimeVale);
 ```
-- perform swipeAction("firstImage")
+- perform swipeAction("firstImage", direction "left or right")
 ```java
 swipeAction(firstImage, "left");
 ```

@@ -1,5 +1,8 @@
 ## Code
 
+-  locate element for the firstimage for the ff reasons
+   - assertion
+   - swipeAction("firstimage")
 ```java
 WebElement firstImage = driver.findElement(By.xpath("(//android.widget.ImageView)[1]"));
 ```
